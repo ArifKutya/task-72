@@ -1,5 +1,5 @@
 import "./App.css";
-import Tags from "./Tags";
+import React from "react";
 
 function App() {
   return (
@@ -9,7 +9,6 @@ function App() {
           <p class="title">A React Task</p>
           <p class="subtitle">by Boom.dev</p>
           <p>Enter tags</p>
-          <Tags/>
         </div>
       </section>
       <div class="container is-fullhd">

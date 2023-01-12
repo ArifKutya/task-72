@@ -3,11 +3,9 @@ import ReactDOM from "react-dom";
 const root = ReactDOM.createRoot(
   document.getElementById('root')
 );
-function Tags() {
   const element = (
   <div className="tags-input-container">
     <div className="tag-item">
-      <span className="#"></span>
       <span className="text">boomdotdev</span>
       <span className="close">&times;</span>
     </div>
@@ -25,6 +23,4 @@ function Tags() {
     </div>
   </div>
   );
-  root.return(element)
-}
-export default Tags;
+  root.render(element);
