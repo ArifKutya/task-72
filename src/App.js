@@ -1,5 +1,6 @@
 import "./App.css";
 import React from "react";
+import Tags from "./Tags";
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
         <div class="hero-body">
           <p class="title">A React Task</p>
           <p class="subtitle">by Boom.dev</p>
-          <p>Enter tags</p>
+          <Tags />
         </div>
       </section>
       <div class="container is-fullhd">
