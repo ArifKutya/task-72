@@ -9,7 +9,6 @@ function App() {
         <div class="hero-body">
           <p class="title">A React Task</p>
           <p class="subtitle">by Boom.dev</p>
-          <Tags />
         </div>
       </section>
       <div class="container is-fullhd">
